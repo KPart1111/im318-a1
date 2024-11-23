@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
 ---
-# Skiing
+# About the Artist
 
 I like to ski.

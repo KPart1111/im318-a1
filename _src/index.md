@@ -1,7 +1,7 @@
 ---
 layout: layout.njk
 ---
-# This is my 11ty site
+# Vanora
 
 This is a paragraph.
 

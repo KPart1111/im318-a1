@@ -2,6 +2,6 @@
 layout: layout.njk
 ---
 
-# Sailing
+# Concept Art
 
 Sailing is a summer activity of Dan's.
