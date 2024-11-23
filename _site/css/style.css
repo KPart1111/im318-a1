@@ -35,4 +35,75 @@ body {
   background-image: url("../img/art-bg.jpg");
 }
 
+header {
+  background-color: #FEF1D3;
+  padding: 1vw 10vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo img {
+  max-width: 20vw;
+}
+
+/* Menu Styles */
+.menu, .cast-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 2vw;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  color: #1E7FA5;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.8em;
+  display: block;
+}
+
+.menu a:hover {
+  color: #FEF1D3;
+  background-color: #7BACC8;
+}
+
+.cast-list a {
+  color: #FEF1D3;
+  background-color: #1E7FA5;
+}
+
+.cast-list {
+  display: none;
+  background-color: #1E7FA5;
+}
+
+.menu-parent {
+  position: relative;
+}
+
+.menu-parent:hover .cast-list {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 180px;
+}
+
+.menu-toggle {
+  font-size: 2.5rem;
+  display: none;
+}
+
+.imglogo {
+  max-width: 12vw;
+}
+
 /*# sourceMappingURL=style.css.map */

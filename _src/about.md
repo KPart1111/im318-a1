@@ -6,4 +6,3 @@ pageClass: about
 
 I like to ski.
 
-<img src="../img/logo.png" alt="Temple Symbol">
