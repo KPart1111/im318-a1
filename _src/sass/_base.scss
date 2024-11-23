@@ -15,7 +15,7 @@ body {
     h1 {
         font-size: 4rem;
     }
-    /* &.home {
+    &.home {
         background-image: url("../img/hero.jpg");
     }
     &.art {
@@ -23,16 +23,16 @@ body {
     }
     &.about {
         background-image: url('../img/about-bg.jpg');
-    } */
+    }
 }
 .wrapper {
     padding: 4vw 20vw 6vw;
 }
-.art {
+/* .art {
     .hero {
         background-image: url('../img/art-bg.jpg');
     }
-}
+} */
 header {
     background-color: #FEF1D3;
     padding: 1vw 10vw;
