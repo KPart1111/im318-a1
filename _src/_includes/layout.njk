@@ -3,13 +3,17 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Vanora</title>
+     <title>{{ title }} - Vanora</title>
      <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
      <header>
           {% include 'nav.html' %}
      </header>
+     <div class="hero" {{ pageClass }}>
+          <h1>{{ title }}</h1>
+     </div>
      {{ content | safe }}
+     <script src="../js/script.js"></script>
 </body>
 </html>

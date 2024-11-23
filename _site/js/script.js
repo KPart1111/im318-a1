@@ -1,4 +1,4 @@
-// declare!
+/* // declare!
 let toggle = document.querySelector('.menu-toggle');
 let menu = document.querySelector('.menu');
 
@@ -6,5 +6,6 @@ let menu = document.querySelector('.menu');
 function toggleMenu() {
      menu.classList.toggle('show');
 }
-toggle.addEventListener('click',toggleMenu);
+toggle.addEventListener('click',toggleMenu); */
 
+console.log('JS Running');

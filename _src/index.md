@@ -1,7 +1,8 @@
 ---
 layout: layout.njk
+title: Vanora
+pageClass: home
 ---
-# Vanora
 
 This is a paragraph.
 

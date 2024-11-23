@@ -1,6 +1,9 @@
 ---
 layout: layout.njk
+title: About the Artist
+pageClass: about
 ---
-# About the Artist
 
 I like to ski.
+
+<img src="../img/logo.png" alt="Temple Symbol">
