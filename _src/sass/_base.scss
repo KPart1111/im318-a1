@@ -1,8 +1,9 @@
 body {
     margin: 0;
-    background-color: #0a1740;
-    color: whitesmoke;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #283C5E;
+    color: #b4e2ff;
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 1.35rem,;
 }
 .hero {
     height: 50vh;
@@ -13,7 +14,10 @@ body {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     h1 {
-        font-size: 4rem;
+        font-size: 5.2rem;
+        font-family: "Potta One", system-ui;
+        color: #8BC4E8;
+        -webkit-text-stroke: #283C5E 1px;
     }
     &.home {
         background-image: url("../img/hero.jpg");
@@ -26,15 +30,10 @@ body {
     }
 }
 .wrapper {
-    padding: 4vw 20vw 6vw;
+    padding: 4vw 10vw 6vw;
 }
-/* .art {
-    .hero {
-        background-image: url('../img/art-bg.jpg');
-    }
-} */
 header {
-    background-color: #FEF1D3;
+    background-color: #a2a2a2;
     padding: 1vw 10vw;
 }
 nav {
@@ -47,48 +46,63 @@ max-width: 20vw;
 }
 
 /* Menu Styles */
-.menu, .cast-list {
+.menu {
     list-style: none;
     padding: 0;
     margin: 0;
-    font-size: 2vw;
-}
-.menu {
+    font-size: 2.3vw;
     display: flex;
-}
-.menu a  {
-    color: #1E7FA5;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 0.8em;
-    display: block;
-}
-.menu a:hover {
-    color: #FEF1D3;
-    background-color: #7BACC8;
-}
-.cast-list a {
-    color: #FEF1D3;
-    background-color: #3cb9ea;
-}
-.cast-list {
-    display: none;
-    background-color: #1E7FA5;
-}
-.menu-parent {
-    position: relative;
-}
-.menu-parent:hover .cast-list {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 180px;
+    font-family: "Potta One", system-ui;
+    a  {
+        color: #283C5E;
+        -webkit-text-stroke: #4ea2d9 1px;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.8em;
+        display: block;
+    }
+    a:hover {
+        color: #41B5E6;
+        -webkit-text-stroke: #0f1724 1px;
+        background-color: #283C5E;
+    }
 }
 .menu-toggle {
     font-size: 2.5rem;
     display: none;
 }
+//
 .imglogo {
     max-width: 12vw;
+}
+.button {
+    padding: .5em;
+    border-radius: 3px;
+    background-color: #45AADB;
+    display: inline-block;
+    color: #494A4C;
+    -webkit-text-stroke: #283C5E 2px;
+    text-decoration: none;
+    font-family: "Potta One", system-ui;
+    font-size: 2rem;
+}
+.section {
+    .section-img {
+        max-width: 35vw;
+        max-height: 40vh;
+        float: left;
+        padding-right: 5vw;
+    }
+    .about-img {
+        max-width: 35vw;
+        max-height: 40vh;
+        float: left;
+        padding-right: 5vw;
+    }
+    h2 {
+        margin-top: 0;
+    }
+    display: flow-root;
+    margin-top: 2vw;
+    padding-bottom: 5vw;
 }

@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+    header {
+         position: relative;
+         padding: 4vw;
+    }
+    .menu {
+         display: none;
+         position: absolute;
+         top: 100%;
+         left: 0;
+         right: 0;
+         background-color: #283C5E;
+         color: #8BC4E8;
+         a:hover {
+            color: #0f1724;
+            -webkit-text-stroke: #0f1724 0px;
+            background-color: #41B5E6;
+        }
+        a {
+            color: #8BC4E8;
+            background-color: #283C5E;
+            -webkit-text-stroke: #8BC4E8 0px;
+       }
+    }
+    .menu-toggle {
+         display:block;
+    }
+    .menu.show {
+         display: block;
+    } 
+    .button {
+        font-size: 1.5rem;
+    }
+    .hero {
+        h1 {
+            font-size: 4.5rem;
+            text-align: center;
+        }
+    }
+    .section {
+        .section-img {
+            max-width: 80vw;
+            max-height: 50vh;
+            float: center;
+            padding-right: 5vw;
+        }
+        .about-img {
+            max-width: 60vw;
+            float: none;
+            padding-right: 5vw;
+        }
+    }
+}
